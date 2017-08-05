@@ -1,0 +1,3 @@
+package: github.com/carllhw/go-eureka-client-sample
+import:
+- package: github.com/spf13/cobra
