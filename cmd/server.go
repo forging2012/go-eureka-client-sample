@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"github.com/carllhw/go-eureka-client-sample/pkg/server"
 	"github.com/spf13/cobra"
 )
 
@@ -9,8 +10,8 @@ var serverCmd = &cobra.Command{
 	Use:   "server",
 	Short: "Server as eureka client",
 	Long:  `Server as eureka client.`,
-	RunE: func(cmd *cobra.Command, args []string) error {
-		return run()
+	Run: func(cmd *cobra.Command, args []string) {
+		run()
 	},
 }
 
@@ -18,6 +19,6 @@ func init() {
 	RootCmd.AddCommand(serverCmd)
 }
 
-func run() error {
-	return nil
+func run() {
+	server.Start()
 }

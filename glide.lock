@@ -1,8 +1,14 @@
-hash: 47db1dff1b6826851533d862691231f5cd60177840b995006ff60fd8a5ba2ac0
-updated: 2017-08-05T18:35:44.628157814+08:00
+hash: fc7476a54b281318e49253f380f11bb704784726c32302dce28e33a714785a84
+updated: 2017-08-06T11:49:04.300098284+08:00
 imports:
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: bcd8bc72b08df0f70df986b97f95590779502d31
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
 - name: github.com/spf13/cobra
   version: 4d647c8944eb42504a714e57e97f244ed6344722
 - name: github.com/spf13/pflag
